@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Skills from './skills';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -8,7 +9,7 @@ export default  class Resume extends Component {
          <div className="row education">
 
             <div className="three columns header-col">
-               <h1><span>Education</span></h1>
+               <h1><span>Educação</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -21,7 +22,7 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
+                          <p className="achievements">
                           {item.Achievements}
                           </p>
                        </div>
@@ -33,7 +34,7 @@ export default  class Resume extends Component {
          </div>
         <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Work</span></h1>
+               <h1><span>Profissional</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -46,7 +47,7 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
+                          <p class="ten achievements">
                           {item.Achievements}
                           </p>
                        </div>
@@ -60,37 +61,27 @@ export default  class Resume extends Component {
          </div>
 
 
-         <div className="row skill">
+         <div className="skill">
 
-            <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
+            <div className="row three columns header-col">
+               <h1><span>Habilidades</span></h1>
             </div>
 
-            <div className="nine columns main-col">
+              <div class="row">
+                <div className="twelve columns main-col">
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
+                    <p>
+                    {resumeData.skillsDescription}
+                    </p>
 
-   				<div className="bars">
+                    <div className="bars">
 
-   				   <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                }
+                    <Skills resumeData={resumeData} />
 
-   					</ul>
+                    </div>
 
-   				</div>
-
-   			</div>
+                  </div>
+              </div>
 
          </div>
 

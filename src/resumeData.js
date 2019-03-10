@@ -1,63 +1,65 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
+    "name": "Bruno Barbosa",
+    "role": "Desenvolvedor front-end",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "Estudante de tecnologia da informação, focado na área de programação Web Client-side e Server-side",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/thedevjs/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/thedevb",
           "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":" apaixonado por aprender e descobrir, autodidata   I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
     "address":"India",
     "website":"https://rbhatia46.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"UMC - Mogi das Cruzes",
+        "specialization":"Sistema de informação",
+        "MonthOfPassing":"Fev",
+        "YearOfPassing":"2018",
+        "Achievements":""
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
+        "UniversityName":"Programação web completo",
+        "specialization":"Curso web online",
         "MonthOfPassing":"Jan",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Curso web de 108 horas com foco front-end na plataforma Udemy"
+      },
+      {
+        "UniversityName":"Aprenda a programar em um final de semana",
+        "specialization":"Curso presencial web",
+        "MonthOfPassing":"Dez",
+        "YearOfPassing":"2017",
+        "Achievements":"Curso de 16 horas oferecido pelo facebook na estação hack São Paulo"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
+        "CompanyName":"Hackathon",
+        "specialization":"Hackathon da seguraça pública de Mogi das Cruzes",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Hackathon organizado pela prefeitura de Mogi das Cruzes visando buscar soluções para a cidade por meio da tecnologia onde eu tive a felicidade de ficar em segundo lugar"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
+        "CompanyName":"Docket Brasil",
+        "specialization":"Estagiário Front-end",
+        "MonthOfLeaving":"Ago",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Atual local de trabalho onde desenvolvo e faço melhorias em uma plataforma financeira interna"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Front-end",
     "skills":[
       {
         "skillname":"HTML5"
@@ -67,28 +69,38 @@ let resumeData = {
       },
       {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"Jquery"
+      },
+      {
+        "skillname":"SASS"
+      },
+      {
+        "skillname":"Git"
+      },
+      {
+        "skillname":"Scrum"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Conversor moeda",
+        "description":"Um conversor de moeda criado para estudo em reactjs",
+        "imgurl":"./images/converosor.jpg",
+        "classe":"conversor"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Academia site",
+        "description":"Site de academia com sistema back-end de gerenciamento de contato (PHP)",
+        "imgurl":"./images/academia.jpg",
+        "classe":"academia"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Jogo mata mosquito",
+        "description":"Jogo criado para estudo",  
+        "imgurl":"./images/mosquito.jpg",
+        "classe":"mosquito"
       }
     ],
     "testimonials":[
