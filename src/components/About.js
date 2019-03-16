@@ -21,22 +21,16 @@ export default class About extends Component {
                }
                </p>
 
-               <div className="row">
-
-                  {/* <div className="columns contact-details">
-
-                  <h2>Dados de detalhe</h2>
-                  <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.website}</span>
-       					   </p>
-                  </div> */}
-               </div>
+         <div className="row" style={{display: "flex", justifyContent: "space-between"}}>
+         <div className="wrapper-icons-about">
+            <img className="wrapper-icons-about"  src="/images/icon_map.svg" alt="" />
+            <span>Mogi das Cruzes - SP</span>
+         </div>
+         <div className="wrapper-icons-about">
+            <img className="wrapper-icons-about"  src="/images/calendar.svg" alt="" />
+            <span>11/08/1999</span>
+         </div>
+         </div>
             </div>
          </div>
       </section>

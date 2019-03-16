@@ -19,8 +19,8 @@ export default class Porfolio extends Component {
                 <div class={`flip-box-front ${item.classe}`}>
                     </div>
                     <div class="flip-box-back">
-                      <h2>{item.name}</h2>
-                      <p>{item.description}</p>
+                      <span className="title-card">{item.name}</span>
+                      <p className="descripton">{item.description}</p>
                     </div>
                   </div>
                 </div>

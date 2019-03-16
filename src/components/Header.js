@@ -6,6 +6,7 @@ export default class Header extends Component {
       <React.Fragment>
       
       <header id="home">
+      <i className="fab fa-font-awesome"></i>
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -14,7 +15,7 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#about">Sobre</a></li>
                 <li><a className="smoothscroll" href="#resume">Currículo</a></li>
                <li><a className="smoothscroll" href="#portfolio">Trabalho</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+               {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                <li><a className="smoothscroll" href="#contact">Contato</a></li>
             </ul>
          </nav>
