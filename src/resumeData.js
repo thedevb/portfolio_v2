@@ -17,7 +17,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":" apaixonado por aprender e descobrir, autodidata   I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":" apaixonado por aprender e descobrir, autodidata sempre buscando criar novas sinapses! Tenho boa comunicação aprecio um bom meetup para fazer novas amizades. Gosto de trabalhar com web, atualmente front-end em uma startup lawtech.",
     "address":"India",
     "website":"https://rbhatia46.github.io",
     "education":[
