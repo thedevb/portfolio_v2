@@ -489,14 +489,13 @@ ul#nav li.current a { color: #F06000; }
 .flip-box-front.mosquito {
    background-size: cover;
    background-image: url('/images/mataMosca.jpg');
-   background-color: red;
 
  }
  
  /* Style the back side */
  .flip-box-back {
-   background-color: dodgerblue;
-   color: white;
+   background-color: rgb(238, 238, 238);
+   color: rgb(83, 83, 83);
    transform: rotateY(180deg);
  }
 
