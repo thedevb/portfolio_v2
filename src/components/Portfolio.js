@@ -12,7 +12,7 @@ export default class Porfolio extends Component {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                
-              <div className="columns portfolio-item">
+              <a href={item.link} className="columns portfolio-item">
                 <div>
                 <div class="flip-box">
                     <div class="flip-box-inner">
@@ -25,7 +25,7 @@ export default class Porfolio extends Component {
                   </div>
                 </div>
                   </div>
-              </div>
+              </a>
               )
             })
           }

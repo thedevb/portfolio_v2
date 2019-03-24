@@ -94,13 +94,15 @@ let resumeData = {
         "name":"Academia site",
         "description":"Site de academia com sistema back-end de gerenciamento de contato (PHP)",
         "imgurl":"./images/academia.jpg",
-        "classe":"academia"
+        "classe":"academia",
+        "link":"/gym/src/frontend/html"
       },
       {
         "name":"Jogo mata mosquito",
         "description":"Jogo criado para estudo",  
         "imgurl":"./images/mosquito.jpg",
-        "classe":"mosquito"
+        "classe":"mosquito",
+        "link":"/jogo"
       }
     ],
     "testimonials":[
