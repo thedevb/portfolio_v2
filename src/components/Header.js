@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import  '../../public/images/react'
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -6,6 +7,7 @@ export default class Header extends Component {
       <React.Fragment>
       
       <header id="home">
+      <img src={"/images/react-logo.png"} style={{width: '100px', position: 'fixed', bottom: '10px', right: '10px'}} />
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>

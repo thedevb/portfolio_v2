@@ -51,6 +51,12 @@ export class Skills extends Component {
                 <em>{resumeData.skills[6].skillname}</em>
             </li>
         </div>
+        <div className="row">
+            <li className="columns five">
+                <span className={`bar-expand ${resumeData.skills[7].skillname.toLowerCase()}`} />
+                <em>{resumeData.skills[7].skillname}</em>
+            </li>
+        </div>
       </ul>
     )
   }
